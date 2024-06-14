@@ -85,14 +85,14 @@ export default {
       <div className="mb-4 flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-slate-50 px-4 py-2 shadow">
         <code className="text-sm">
           <span className="select-none">$ </span>npx degit
-          frankborden/ui/src/components src/some/destination
+          frankborden/skyline/src/components src/some/destination
         </code>
         <Button
           color="ghost"
           className="inline-flex p-1 pressed:pb-[3.5px] pressed:pt-[4.5px]"
           onPress={() => {
             navigator.clipboard.writeText(
-              "npx degit frankborden/ui/src/components src/some/destination",
+              "npx degit frankborden/skyline/src/components src/some/destination",
             );
             toast(
               "Copied to clipboard",
