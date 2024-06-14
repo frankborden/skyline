@@ -1,9 +1,9 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import { Button } from "~/components/button";
 import { toast } from "~/components/toast";
 
-export const Route = createLazyFileRoute("/setup")({
+export const Route = createFileRoute("/setup")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Setup</h1>

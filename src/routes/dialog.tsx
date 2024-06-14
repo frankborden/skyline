@@ -1,9 +1,9 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import { Button } from "~/components/button";
 import { Dialog, DialogTrigger } from "~/components/dialog";
 
-export const Route = createLazyFileRoute("/dialog")({
+export const Route = createFileRoute("/dialog")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Dialog</h1>

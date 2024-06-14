@@ -1,8 +1,8 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import { Tab, TabList, TabPanel, Tabs } from "~/components/tab";
 
-export const Route = createLazyFileRoute("/tab")({
+export const Route = createFileRoute("/tab")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Tab</h1>

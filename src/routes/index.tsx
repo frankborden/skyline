@@ -1,6 +1,6 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createLazyFileRoute("/")({
+export const Route = createFileRoute("/")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Overview</h1>

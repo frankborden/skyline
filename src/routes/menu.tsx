@@ -1,9 +1,9 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import { Button } from "~/components/button";
 import { Menu, MenuItem, MenuTrigger } from "~/components/menu";
 
-export const Route = createLazyFileRoute("/menu")({
+export const Route = createFileRoute("/menu")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Menu</h1>

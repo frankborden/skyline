@@ -1,8 +1,8 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import { Tag, Tags, tagStyles } from "~/components/tag";
 
-export const Route = createLazyFileRoute("/tag")({
+export const Route = createFileRoute("/tag")({
   component: () => (
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Tag</h1>
