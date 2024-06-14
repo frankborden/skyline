@@ -43,7 +43,7 @@ export const Route = createRootRoute({
   component: () => (
     <div className="flex w-screen">
       <div>
-        <div className="sticky top-0 h-screen border border-slate-300">
+        <div className="sticky top-0 h-screen border-r border-slate-300">
           <div className="grid grid-cols-1">
             <div className="aspect-square w-full p-6">
               <div className="grid size-full place-items-center rounded-lg bg-slate-200/75 p-2">
