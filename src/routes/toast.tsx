@@ -15,7 +15,7 @@ export const Route = createFileRoute("/toast")({
           toast(`Created event #${i++}`, `Lorem ipsum dolor sit amet`)
         }
       >
-        Toast
+        Send
       </Button>
     </>
   ),

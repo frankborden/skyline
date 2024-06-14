@@ -46,8 +46,8 @@ export const Route = createRootRoute({
         <div className="sticky top-0 h-screen border-r border-slate-300">
           <div className="grid grid-cols-1">
             <div className="aspect-square w-full p-6">
-              <div className="grid size-full place-items-center rounded-lg bg-slate-200/75 p-2">
-                <div className="i-tabler-building-skyscraper h-[calc(100%_-_1rem)] w-[calc(100%_-_1rem)] text-slate-600" />
+              <div className="grid size-full place-items-center rounded-lg bg-slate-200/75 p-1">
+                <div className="i-tabler-building-skyscraper h-[calc(100%_-_0.5rem)] w-[calc(100%_-_0.5rem)] text-slate-600" />
               </div>
             </div>
             <div className="mx-4 -mt-5 border-b border-white pb-2 text-center text-lg font-medium text-slate-800">

@@ -8,7 +8,7 @@ export const Route = createFileRoute("/dialog")({
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Dialog</h1>
       <DialogTrigger>
-        <Button color="slate">Dialog</Button>
+        <Button color="slate">Open</Button>
         <Dialog className="max-w-prose">
           {({ close }) => (
             <div>

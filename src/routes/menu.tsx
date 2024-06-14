@@ -8,7 +8,7 @@ export const Route = createFileRoute("/menu")({
     <>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Menu</h1>
       <MenuTrigger>
-        <Button color="slate">Menu</Button>
+        <Button color="slate">Open</Button>
         <Menu>
           <MenuItem>Action #1</MenuItem>
           <MenuItem>Action #2</MenuItem>

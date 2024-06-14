@@ -13,7 +13,7 @@ export const Route = createFileRoute("/button")({
           ) as (keyof typeof buttonStyles.variants.color)[]
         ).map((color) => (
           <Button key={color} color={color} className="capitalize">
-            Button
+            Click
           </Button>
         ))}
       </div>
